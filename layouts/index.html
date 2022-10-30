@@ -1,0 +1,403 @@
+{{ define "main" }}
+
+
+{{ $currentLang := .Site.Language.Lang }}
+
+<section>
+  <div class="bg bg-image1">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-md-7 pt-120 mt-md-0 pt-md-60">
+          <h1 class="font-40 font-md-64 font-md-lnh68 font-weight-black pt-120 pt-md-20 pb-20">
+            {{ .Params.heading | safeHTML }}
+          </h1>        
+          <p class = "font-20 font-lnh28 pb-20">{{ .Params.perex | safeHTML }}</p>
+          <div>
+            <a href="#meeting" class="smooth cta-button font-lnh54 px-50 mb-30 mb-md-0 d-inline-block font-weight-bold font-font2 font-white bg-blue">{{ i18n "make_appointment" }}</a>
+         
+            
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section>
+  <div class="text-md-left pt-0 pb-60">
+      <div class="container">
+          <div class="row justify-content-center">
+              <div class="pb-30 col-12 text-center">
+                  <h2 class = "font-30 font-md-42 pt-50 font-weight-black text-center">Výhody IoT monitoringu</h2>
+              </div>
+              <div class = "col-12">
+                <div class = "row">
+                    <div class="col pb-30">
+                        <div class="row justify-content-center align-items-center">
+      
+                            <div class = "col-3 col-md-1 text-right pb-20 pb-md-0">
+                                <img loading="lazy" src="/_assets/images/benefits/effectivity.svg" class="w-100 mt-20" alt="" />
+                            </div>
+                            <div class = "col-9 col-md-3 pb-20 pb-md-0">
+                                <h3 class="font-20 font-weight-black font-lnh30">Mobilní řešení</h3>
+                                <p>Zcela mobilní řešení, které komunikuje odkudkoliv a pracuje na baterie několik let.</p>
+                            </div>
+                          <div class = "col-3 col-md-1 text-right pb-20 pb-md-0">
+                              <img loading="lazy" src="/_assets/images/benefits/consumption.svg" class="w-75 mt-20" alt="" />
+                          </div>
+                          <div class = "col-9 col-md-3 pb-20 pb-md-0">
+                              <h3 class="font-20 font-weight-black font-lnh30">Bezdrátová komunikace</h3>
+                              <p>Zařízení komunikují bezdrátově a nezávisle na vaší interní síti. Signál je k dispozici kdekoliv.</p>
+                          </div>
+
+                        <div class = "col-3 col-md-1 text-right pb-20 pb-md-0">
+                          <img loading="lazy" src="/_assets/images/benefits/document.svg" class="w-100 mt-20" alt="" />
+                      </div>
+                      <div class = "col-9 col-md-3 pb-20 pb-md-0">
+                          <h3 class="font-20 font-weight-black font-lnh30">Data v Microsoft Power BI</h3>
+                          <p>Přehledné reporty o podmínkách najdete v počítači i telefonu v aplikaci Microsoft Power BI.</p>
+                      </div>
+
+      </div>
+  </div>
+</section>
+
+<section>
+  <div class="bg bg--gray" id = "how">
+      <div class="container pb-30">
+        <div class="row">
+          <div class="col-12 col-md-10 col-lg-10 mx-auto text-center">
+              <h2 class="text-center pb-20 font-weight-black pt-60 font-38 font-md-56">{{ i18n "start_monitor_together" | safeHTML }}</h2>
+          </div>
+      </div>
+          <div class="row">
+            <div class = "col-12 col-md-6">
+              <img src = "/_assets/images/process-1.jpg" id = "collapsor-image" class = "img-fluid pt-40" />
+            </div>
+              <div class="col-12 col-md-6">
+                
+                  <div class="collapsor pt-10" id = "process">
+                    <div class="collapsor__item" img-url = "/_assets/images/process-1.jpg">
+                      <h3 class="collapsor__header collapsor__header--active">{{ i18n "step_1" | safeHTML }}</h3>
+                      <div class="collapsor__body collapsor__body--active">
+                        {{ i18n "step_1_desc" | safeHTML }}
+                      </div>
+                  </div>
+                  
+                  <div class="collapsor__item" img-url = "/_assets/images/process-2.png">
+                      <h3 class="collapsor__header collapsor__header--active">{{ i18n "step_2" | safeHTML }}</h3>
+                      <div class="collapsor__body collapsor__body--active">
+                        {{ i18n "step_2_desc" | safeHTML }}
+                      </div>
+                  </div>
+
+                  <div class="collapsor__item" img-url = "/_assets/images/process-3.png">
+                    <h3 class="collapsor__header collapsor__header--active">{{ i18n "step_3" | safeHTML }}</h3>
+                    <div class="collapsor__body collapsor__body--active">
+                      {{ i18n "step_3_desc" | safeHTML }}
+                    </div>
+                </div>
+
+              <a href="#meeting" class="smooth cta-button font-lnh54 mt-30 ml-30 px-50 mb-30 mb-md-0 d-inline-block font-weight-bold font-font2 font-white bg-blue">{{ i18n "make_appointment" | safeHTML }}</a>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+
+<!--<script>
+  $('#process .collapsor__item').click(function(){
+    var image = $(this).attr('img-url');
+    $('#collapsor-image').attr('src',image);
+  });
+</script>-->
+
+</section>
+<!--
+<section>
+  <div class="container" id = "pricelist">
+    
+      <div class="row align-items-center pb-10">
+          
+         <div class="col-12 col-md-8 col-lg-6 mx-auto text-center">
+              <div class="font-grayLined font-gray2 mb-30 font-font2 font-weight-bold font-15"><span>{{ i18n "references" | safeHTML }}</span></div>
+         </div>
+          <div class="col-12 text-center">      
+                <span class="px-10 px-md-30 mb-20 mb-md-0 d-inline-block">
+                  <img width="140" src="/_assets/images/partners/tpca.svg" alt="" />
+              </span>
+              <span class="px-10 px-md-30 mb-20 mb-md-0 d-inline-block">
+                  <img width="135" src="/_assets/images/partners/tokoz.svg" alt="" />
+              </span>
+              <span class="px-10 px-md-30 mb-20 mb-md-0 d-inline-block">
+                  <img width="140" src="/_assets/images/partners/skoda.svg" alt="" />
+              </span>
+              <span class="px-10 px-md-30 mb-20 mb-md-0 d-inline-block">
+                  <img width="135" src="/_assets/images/partners/arcelormittal.svg" alt="" />
+              </span>
+              <span class="px-10 px-md-30 mb-20 mb-md-0 d-inline-block">
+                  <img width="95" src="/_assets/images/partners/ammeeral.svg" alt="" />
+              </span>
+          </div>
+      </div>
+  </div>
+</section>-->
+
+<section>
+  <div class="bg bg--gray" id = "pricelist">
+      <div class="container ">
+          <div class="row">
+              <div class="col">
+                <div class="row">
+                    <div class="col-12 col-md-10 col-lg-8 mx-auto text-center">
+                        <h2 class="text-center pb-20 font-weight-black font-38 font-md-56">{{ i18n "prices" | safeHTML }}</h2>
+                        <p class="text-center font-24 font-lnh38">{{ i18n "prices_desc" | safeHTML }}</p>
+                    </div>
+
+                    <div class="col-12 pricelist pricelist--bottom-3-5">
+                      
+                      <div class="row no-gutters">
+                          <div class="col-12 col-md-4">
+                              <div class="pricelist__item">
+                                  <div class="pricelist__content">
+                                      <div class="logo logo--2"></div>
+                                      <h3 class="pricelist__title">4× Teplota IP67</h3>
+                                      <div class="text-left pb-20">Sledování teploty vzduchu, vody, potrubí, stěn, motorů a dalších objektů.</div>
+
+                                      <ul class="pricelist__items">
+                                          <li class="pricelist__items__item">4× Teplota</li>
+                                          <li class="pricelist__items__item pricelist__items__item--disabled">Vlhkost</li>
+                                          <li class="pricelist__items__item pricelist__items__item--disabled">Oxid uhličitý (CO2)</li>
+                                          <li class="pricelist__items__item pricelist__items__item--disabled">Intenzita osvětlení</li>
+                                          <li class="pricelist__items__item pricelist__items__item--disabled">Atmosférický tlak</li>
+                                          <li class="pricelist__items__item pricelist__items__item--disabled">Detekce pohybu</li>
+                                          <li class="pricelist__items__item pricelist__items__item--last">Krytí krabice IP67</li>
+                                      </ul>
+
+                                      <div class="pricelist__price font-weight-black font-20">Od 130 CZK / měsíc</div>
+
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="col-12 col-md-4">
+                              <div class="pricelist__item pricelist__item--rec">
+                                  <div class="pricelist__content">
+                                      <div class="logo logo--2"></div>
+                                      <h3 class="pricelist__title">Teplota a vlhkost IP67</h3>
+                                      <div class="text-left pb-20">Sledování vzdušné teploty a vlhkosti, například pro audity, skladování, vytápění.</div>
+
+                                      <ul class="pricelist__items">
+                                        <li class="pricelist__items__item">Teplota</li>
+                                        <li class="pricelist__items__item">Vlhkost</li>
+                                        <li class="pricelist__items__item pricelist__items__item--disabled">Oxid uhličitý (CO2)</li>
+                                        <li class="pricelist__items__item pricelist__items__item--disabled">Intenzita osvětlení</li>
+                                        <li class="pricelist__items__item pricelist__items__item--disabled">Atmosférický tlak</li>
+                                        <li class="pricelist__items__item pricelist__items__item--disabled">Detekce pohybu</li>
+                                        <li class="pricelist__items__item pricelist__items__item--last">Krytí krabice IP67</li>
+                                    </ul>
+
+                                    <div class="pricelist__price font-weight-black font-20">Od 150 CZK / měsíc</div>
+
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="col-12 col-md-4">
+                              <div class="pricelist__item">
+                                  <div class="pricelist__content">
+                                      <div class="logo logo--2"></div>
+                                      <h3 class="pricelist__title">Kvalita vnitřního ovzduší</h3>
+                                      <div class="text-left pb-20">Sledování podmínek kvality vnitřního prostředí, například v kancelářích.</div>
+
+                                      <ul class="pricelist__items">
+                                        <li class="pricelist__items__item">Teplota</li>
+                                        <li class="pricelist__items__item">Vlhkost</li>
+                                        <li class="pricelist__items__item">Intenzita osvětlení</li>
+                                        <li class="pricelist__items__item">Oxid uhličitý (CO2) (volitelný)</li>
+                                        <li class="pricelist__items__item">Atmosférický tlak (volitelný)</li>
+                                        <li class="pricelist__items__item">Detekce pohybu (volitelný)</li>
+                                        <li class="pricelist__items__item pricelist__items__item--last pricelist__items__item--disabled">Krytí krabice IP67</li>
+                                    </ul>
+                                    <div class="pricelist__price font-weight-black font-20">Od 200 CZK / měsíc</div>
+
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+
+
+<section>
+  <div class="text-md-left pb-60">
+      <div class="container">
+          <div class="row justify-content-center">
+              <!--<div class="pb-30 col-12 text-center">
+                  <h2 class = "font-30 font-md-42 pt-50 font-weight-black text-center">{{ i18n "benefits_of" }} {{ .Params.heading }}</h2>
+                  <p class="font-20 font-lnh24">{{ i18n "benefits_conditions" }}</p>
+              </div>-->
+              <div class = "col-12">
+                <div class = "row">
+                    <div class="col pb-30">
+                        <div class="row justify-content-center align-items-center">
+      
+                            <div class = "col-3 col-md-1 text-right pb-20 pb-md-0">
+                                <img loading="lazy" src="/_assets/images/benefits/effectivity.svg" class="w-100 mt-20" alt="" />
+                            </div>
+                            <div class = "col-9 col-md-3 pb-20 pb-md-0">
+                                <h3 class="font-20 font-weight-black font-lnh30">{{ i18n "fast_noworries" | safeHTML }}</h3>
+                                <p class="font-18 font-lnh26">{{ i18n "fast_noworries_desc" | safeHTML }}</p>
+                            </div>
+                          <div class = "col-3 col-md-1 text-right pb-20 pb-md-0">
+                              <img loading="lazy" src="/_assets/images/benefits/consumption.svg" class="w-75 mt-20" alt="" />
+                          </div>
+                          <div class = "col-9 col-md-3 pb-20 pb-md-0">
+                              <h3 class="font-20 font-weight-black font-lnh30">{{ i18n "production_data" | safeHTML }}</h3>
+                              <p class="font-18 font-lnh26">{{ i18n "production_data_desc" | safeHTML }}</p>
+                          </div>
+
+                        <div class = "col-3 col-md-1 text-right pb-20 pb-md-0">
+                            <img loading="lazy" src="/_assets/images/benefits/document.svg" class="w-100 mt-20" alt="" />
+                        </div>
+                        <div class = "col-9 col-md-3 pb-20 pb-md-0">
+                            <h3 class="font-20 font-weight-black font-lnh30">{{ i18n "guarantee" | safeHTML }}</h3>
+                            <p class="font-18 font-lnh26">{{ i18n "guarantee_desc" | safeHTML }}</p>
+                        </div>
+      </div>
+  </div>
+</section>
+<div id = "meeting">
+<section>
+  <div class="">
+      <div class="container">
+          <div class="row">
+              <div class="col">
+                  <div class="row pt-30">
+                    <div class="col-12 col-md-8 col-lg-6 mx-auto text-center">
+                      <div class="font-grayLined font-gray2 mb-20 font-font2 font-weight-bold font-15"><span>{{ i18n "partners" }}</span></div>
+                 </div>
+                      <div class="col-12 mx-auto text-center">
+                          <!--<h2 class="text-center font-weight-black font-19 font-md-19 font-md-lnh24 font-font2 font-gray">Partneři programu vyrobni.report</h2>
+                          --><img src = "/_assets/images/partners/microsoft.svg" class = "w-25 pt-20 pb-30 mr-20" />
+                          <img src = "/_assets/images/partners/vodafone.svg" class = "w-25 pt-20 pb-30 ml-20" />
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+<section>
+  <div class = "container">
+  <div class="row justify-content-center pt-60">
+    <div class="col-12 col-md-12 col-lg-12 bg-darkGray py-30 mb-60">
+        <div class = "row align-items-top">
+          <div class = "col-12 col-md-4 pt-md-50 px-50">
+              <img loading="lazy" src="/_assets/images/lukas.jpeg" class="w-75 w-md-100 rounded-circle d-block mx-auto img-fluid" alt="" />
+              <p class = "font-white text-center pt-20">
+              <strong>Lukáš Fabik</strong><br/>
+              <a class = "font-white" href = "mailto:lukas.fabik@hardwario.com">lukas.fabik@hardwario.com</a><br/>
+              {{ i18n "ceo" }} HARDWARIO</p>
+          </div>
+          <div class = "col-12 col-md-8 pt-30 pt-md-0 font-white">
+          <h3 class = "font-32 font-weight-bold pb-20">{{ i18n "let_contact" }}</h3>
+          <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/shell.js"></script>
+          <script>
+            hbspt.forms.create({
+            region: "na1",
+            portalId: "5453210",
+            formId: "{{ .Params.form_id }}"
+          });
+          </script>
+      </div>
+  </div>
+  </div>
+  </div>
+</section>
+</div>
+<section>
+  <div class="bg bg--gray">
+      <div class="container">
+          <div class = "row">
+            <div class = "col-12 text-center">
+              <h2 class="font-40 font-weight-black pt-20">{{ i18n "faq" | safeHTML }}</h2>
+            </div>
+          </div>
+          <div class="row">
+              <div class="col-12">
+                  <div class="collapsor pt-20">
+                    
+                    <div class="collapsor__item">
+                      <h2 class="collapsor__header collapsor__header--active">{{ i18n "faq_1" | safeHTML }}</h2>
+                      <div class="collapsor__body collapsor__body--active">
+                        {{ i18n "faq_1_desc" | safeHTML }}
+                      </div>
+                  </div>
+
+                  <div class="collapsor__item">
+                      <h2 class="collapsor__header">{{ i18n "faq_2" | safeHTML }}</h2>
+                      <div class="collapsor__body">
+                        {{ i18n "faq_2_desc" | safeHTML }}
+                      </div>
+                  </div>
+                  <div class="collapsor__item">
+                    <h2 class="collapsor__header">{{ i18n "faq_3" | safeHTML }}</h2>
+                    <div class="collapsor__body">
+                      {{ i18n "faq_3_desc" | safeHTML }}
+                    </div>
+                </div>
+                <div class="collapsor__item">
+                  <h2 class="collapsor__header">{{ i18n "faq_4" | safeHTML }}</h2>
+                  <div class="collapsor__body">
+                    {{ i18n "faq_4_desc" | safeHTML }}
+                  </div>
+              </div>
+              <div class="collapsor__item">
+                <h2 class="collapsor__header">{{ i18n "faq_5" | safeHTML }}</h2>
+                <div class="collapsor__body">
+                  {{ i18n "faq_5_desc" | safeHTML }}
+                </div>
+            </div>
+            <div class="collapsor__item">
+              <h2 class="collapsor__header">{{ i18n "faq_6" | safeHTML }}</h2>
+              <div class="collapsor__body">
+                {{ i18n "faq_6_desc" | safeHTML }}
+              </div>
+          </div>
+          <div class="collapsor__item">
+            <h2 class="collapsor__header">{{ i18n "faq_7" | safeHTML }}</h2>
+            <div class="collapsor__body">
+              {{ i18n "faq_7_desc" | safeHTML }}
+            </div>
+        </div>
+
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+
+<footer>
+{{ end }}
+
+{{ define "additional-scripts" }}
+
+<script>
+  $("a.smooth[href^=\\#]").click(function(e) {
+    e.preventDefault();
+    var dest = $(this).attr('href');
+    //console.log(dest);
+    $('html,body').animate({ scrollTop: ($(dest).offset().top - 100) }, 'slow');
+  });
+</script>
+
+
+
+
+{{ end }}

@@ -1,0 +1,64 @@
+homeURL = "/"
+DefaultContentLanguage = "cs"
+pygmentsUseClassic = false
+pygmentsCodeFences = true
+pygmentsCodeFencesGuessSyntax = true
+pygmentsUseClasses = true
+
+[params]
+  menuNames = ["main","footer","services"]
+  homeURL = "/"
+
+[languages]
+  [languages.cs]
+    baseURL = 'https://energeticky.report'
+    productionURL = "https://energeticky.report"
+    LanguageName = "Česky"
+    weight = 2
+    [languages.cs.params]
+      siteName = "ENERGETICKÝ REPORT"
+    hardwarioContact = "https://www.hardwario.com/cs/contact/"
+
+[[languages.cs.menu.main]]
+  url    = "#top"
+  name   = "Úvod"
+  pre = "sticky-top"
+  post = ""
+  weight = 1
+
+[[languages.cs.menu.main]]
+  url    = "#how"
+  name   = "Jak to funguje"
+  pre = "sticky-how"
+  post = ""
+  weight = 5
+
+[[languages.cs.menu.main]]
+  url    = "#pricelist"
+  name   = "Cena"
+  pre = "sticky-pricelist"
+  post = ""
+  weight = 15
+
+[[languages.cs.menu.main]]
+  url    = "#meeting"
+  name   = "Kontakt"
+  pre = "sticky-meeting"
+  post = ""
+  weight = 25
+
+[blackfriday]
+smartypants = false
+
+[sitemap]
+  changefreq = "monthly"
+  priority = 0.5
+  filename = "sitemap.xml"
+
+[taxonomies]
+  tag = "tags"
+  category= "categories"
+
+[outputs]
+        home = [ "HTML", "JSON"]
+        page = [ "HTML"]
