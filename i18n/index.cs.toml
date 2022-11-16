@@ -42,13 +42,13 @@ other = "Měření spotřeby elektrické energie, vody, stlačeného vzduchu a d
 other = "Rychle a bezstarostně"
 
 [fast_noworries_desc]
-other = "Instalaci zvládnete svépomocí nebo vám s ní pomůžeme. Začneme nejpozději 30 dnů."
+other = "Instalaci zvládnete svépomocí nebo vám s ní pomůžeme. Začneme nejpozději do 30 dnů."
 
 [production_data]
 other = "Okamžitá data z objektů"
 
 [production_data_desc]
-other = "Ihned po instalaci uvidíte data podmínkách ve vašem telefonu i počítači. "
+other = "Ihned po instalaci uvidíte data o podmínkách ve vašem telefonu i počítači. "
 
 [guarantee]
 other = "Záruka spokojenosti"
@@ -102,7 +102,7 @@ other = "Program energeticky.report již využívají"
 other = "Cena"
 
 [prices_desc]
-other = "Měsíční poplatek zahrnuje zařízení, internetové připojení sítí NB-IoT a report v PowerBI. Cena se odvíjí podle počtu sledovaných veličin, počtu zařízení a doby pronájmu. "
+other = "Měsíční poplatek zahrnuje pronájem zařízení, speciální IoT konektivitu, cloud API a report v PowerBI. Cena se odvíjí podle typu a počtu sledovaných veličin a délky závazku."
 
 [36]
 other = "Závazek 36 měsíců"
@@ -192,7 +192,7 @@ other = "Měsíční poplatek se odvíjí podle toho, jaké veličiny chcete sle
 other = "Co je v ceně zahrnuto?"
 
 [faq_6_desc]
-other = "V měsíčním popltaku je zahrnut pronájem zařízení, internetové připojení zařízení sítí NB-IoT nebo LTE-M, uložení dat pro potřeby reportu a report v PowerBI."
+other = "V měsíčním poplatku je zahrnut pronájem zařízení,  speciální IoT konektivita, cloud API, uložení dat pro potřeby reportu a report v PowerBI."
 
 [faq_7]
 other = "Nabízíte jen pronájem, nebo je možné řešení koupit?"
