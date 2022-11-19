@@ -29,7 +29,7 @@ other = "A completely mobile solution that communicates from anywhere and runs o
 other = "Wireless communication"
 
 [benefit_2_desc]
-other = "Devices communicate wirelessly and independently of your internal network. The signal is available anywhere."
+other = "Devices communicate wirelessly and independently of your network. The signal is available anywhere."
 
 [benefit_3]
 other = "Data in Microsoft Power BI"
@@ -77,7 +77,7 @@ other = "Temperature"
 other = "Monitor temperature of air, water, pipes, walls, motors and other objects."
 
 [price_1]
-other = "From 100 CZK / month"
+other = "From 4 EUR / month"
 
 [price_2_heading]
 other = "Temperature and humidity"
@@ -86,7 +86,7 @@ other = "Temperature and humidity"
 other = "Air temperature and humidity monitoring, e.g. for audits, storage, heating."
 
 [price_2]
-other = "From 150 CZK / month"
+other = "From 6 EUR / month"
 
 [price_3_heading]
 other = "Quality of indoor conditions"
@@ -95,7 +95,7 @@ other = "Quality of indoor conditions"
 other = "Monitoring of indoor environmental quality conditions, for example in offices."
 
 [price_3]
-other = "From 200 CZK / month"
+other = "From 8 EUR / month"
 
 [temperature]
 other = "Temperature"
