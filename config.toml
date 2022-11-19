@@ -1,5 +1,6 @@
+baseURL = "https://facility.report"
 homeURL = "/"
-DefaultContentLanguage = "cs"
+DefaultContentLanguage = "en"
 pygmentsUseClassic = false
 pygmentsCodeFences = true
 pygmentsCodeFencesGuessSyntax = true
@@ -7,17 +8,49 @@ pygmentsUseClasses = true
 
 [params]
   menuNames = ["main","footer","services"]
-  homeURL = "/"
 
 [languages]
+  [languages.en]
+    LanguageName = "English"
+    weight = 1
+    [languages.en.params]
+      baseURL = "/"
+      hardwarioContact = "https://www.hardwario.com/contact/"
   [languages.cs]
-    baseURL = 'https://energeticky.report'
-    productionURL = "https://energeticky.report"
     LanguageName = "Česky"
     weight = 2
     [languages.cs.params]
-      siteName = "ENERGETICKÝ REPORT"
-    hardwarioContact = "https://www.hardwario.com/cs/contact/"
+      baseURL = "/cs/"
+      homeURL = "/cs/"
+      hardwarioContact = "https://www.hardwario.com/cs/contact/"
+
+[[languages.en.menu.main]]
+  url    = "#top"
+  name   = "Home"
+  pre = "sticky-top"
+  post = ""
+  weight = 1
+
+[[languages.en.menu.main]]
+  url    = "#how"
+  name   = "How it works"
+  pre = "sticky-how"
+  post = ""
+  weight = 5
+
+[[languages.en.menu.main]]
+  url    = "#pricelist"
+  name   = "Pricing"
+  pre = "sticky-pricelist"
+  post = ""
+  weight = 15
+
+[[languages.en.menu.main]]
+  url    = "#meeting"
+  name   = "Contact"
+  pre = "sticky-meeting"
+  post = ""
+  weight = 25
 
 [[languages.cs.menu.main]]
   url    = "#top"
