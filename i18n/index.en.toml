@@ -104,7 +104,7 @@ other = "Temperature"
 other = "Humidity"
 
 [co2]
-other = Carbon dioxide"
+other = "Carbon dioxide"
 
 [illuminance]
 other = "Illuminance"
