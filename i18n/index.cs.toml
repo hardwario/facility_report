@@ -152,7 +152,7 @@ other = "Data přenášíme bezdrátovými sítěmi NB-IoT a LTE-M. Mají skvěl
 other = "Kde uvidíme data?"
 
 [faq_4_desc]
-other = "V programu facility.report pracujeme s výstupy v Power BI od Microsoftu. Jak to může vypadat se podívejte na <a href = '/_assets/docs/metering_report.pdf' target = '_blank'>odkaze</a>. Pokud však potřebujete data vidět jinde, najdeme cestu, jak to udělat. S pomocí našich partnerů pak nabízíme také vlastní webové aplikace."
+other = "V programu facility.report pracujeme s výstupy v Power BI od Microsoftu. Jak to může vypadat se podívejte na <a href = 'https://app.powerbi.com/view?r=eyJrIjoiYmU5MWQ5NTgtZjVhOS00NDc5LWEyNGQtYTgxNGZiNTI3OGE0IiwidCI6IjEzNTA4YzA1LTFiMjMtNDk2ZS05NzlkLTZjOTlkODVjMmYxNyIsImMiOjl9&pageName=ReportSection' target = '_blank'>tomto odkaze</a>. Pokud však potřebujete data vidět jinde, najdeme cestu, jak to udělat. S pomocí našich partnerů pak nabízíme také vlastní webové aplikace."
 
 [faq_5]
 other = "Podle čeho se odvíjí cena?"
@@ -164,7 +164,7 @@ other = "Měsíční poplatek se odvíjí podle toho, jaké veličiny chcete sle
 other = "Co je v ceně zahrnuto?"
 
 [faq_6_desc]
-other = "V měsíčním poplatku je zahrnut pronájem zařízení,  speciální IoT konektivita, cloud API, uložení dat pro potřeby reportu a report v PowerBI."
+other = "V měsíčním poplatku je zahrnut pronájem zařízení, speciální IoT konektivita, cloud API, uložení dat pro potřeby reportu a report v PowerBI."
 
 [faq_7]
 other = "Nabízíte jen pronájem, nebo je možné řešení koupit?"

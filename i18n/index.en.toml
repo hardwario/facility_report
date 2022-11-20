@@ -137,28 +137,28 @@ other = "How is the facility.report program going?"
 other = "After submitting the form, we will contact you to arrange a time to meet online. We aim to answer your questions and select the variables we will monitor."
 
 [faq_2]
-other = "Kolik zařízení mohu objednat?"
+other = "How many devices can I order?"
 
 [faq_2_desc]
-other = "Minimální počet zařízení je 10, maximální počet není omezen."
+other = "The minimum number of devices is 10, the maximum number is not limited."
 
 [faq_3]
-other = "Jak data přenášíte? Je to bezpečné?"
+other = "How do you transfer the data? Is it secure?"
 
 [faq_3_desc]
-other = "Data přenášíme bezdrátovými sítěmi NB-IoT a LTE-M. Mají skvělé pokrytí včetně vnitřních prostor objektů. Síť je zcela nezávislá od vaší interní sítě, přenos je zabezpečený."
+other = "We transmit data over NB-IoT and LTE-M wireless networks. They have excellent coverage, including indoor areas of buildings. The network is completely independent of your internal network, the transmission is secure."
 
 [faq_4]
-other = "Kde uvidíme data?"
+other = "Where will we see the data?"
 
 [faq_4_desc]
-other = "V programu facility.report pracujeme s výstupy v Power BI od Microsoftu. Jak to může vypadat se podívejte na <a href = '/_assets/docs/metering_report.pdf' target = '_blank'>odkaze</a>. Pokud však potřebujete data vidět jinde, najdeme cestu, jak to udělat. S pomocí našich partnerů pak nabízíme také vlastní webové aplikace."
+other = "In facility.report we work with Microsoft Power BI report. See what it can look like <a href = 'https://app.powerbi.com/view?r=eyJrIjoiYmU5MWQ5NTgtZjVhOS00NDc5LWEyNGQtYTgxNGZiNTI3OGE0IiwidCI6IjEzNTA4YzA1LTFiMjMtNDk2ZS05NzlkLTZjOTlkODVjMmYxNyIsImMiOjl9&pageName=ReportSection' target = '_blank'>here</a>. But if you need to see the data elsewhere, we'll find a way to do it. With the help of our partners, we also offer custom web applications."
 
 [faq_5]
-other = "Podle čeho se odvíjí cena?"
+other = "What determines the price?"
 
 [faq_5_desc]
-other = "Měsíční poplatek se odvíjí podle toho, jaké veličiny chcete sledovat a na kolika místech."
+other = "The monthly fee depends on what variables you want to monitor and at how many locations."
 
 [faq_6]
 other = "What is included in the price?"
