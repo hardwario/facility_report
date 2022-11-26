@@ -44,19 +44,19 @@ other = "Let's start monitoring conditions in your facilities together"
 other = "1. Online meeting"
 
 [step_1_desc]
-other = "Fill in the form below, and we will contact you and arrange an online meeting. We will discuss how the program works and your questions, and together we will choose how to monitor consumption."
+other = "Submit the form below and we will contact you to arrange an online meeting. We will discuss how the program works, your questions and together we will select the variables to monitor."
 
 [step_2]
 other = "2. Deployment - the start of the pilot"
 
 [step_2_desc]
-other = "Within 30 days, we will install the sensors at your site and integrate them with the selected applications. Installation takes only a few tens of minutes, and you will have energy consumption data immediately."
+other = "We will install the sensors and integrate them with selected applications within 30 days. Installation takes only a few tens of minutes and you will have data about your environment immediately."
 
 [step_3]
 other = "3. Monitoring and evaluation."
 
 [step_3_desc]
-other = "You will have your consumption data instantly on your computer and phone. Together, we will look at the data, evaluate the benefits, and discuss other ways to deploy and extend IoT monitoring."
+other = "Data about environmental conditions will be instantly available on your computer and phone. Together we will look at the data, evaluate the benefits and discuss further possibilities for deploying and extending IoT monitoring."
 
 [make_appointment]
 other = "Make an appointment"
