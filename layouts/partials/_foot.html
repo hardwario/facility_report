@@ -5,10 +5,12 @@
             <p class = "font-16 pt-10 pb-5">
             {{ i18n "operated_by"}} <a class = "font-white" href = "{{ .Site.Params.hardwarioContact }}" target="_blank"><strong>HARDWARIO</strong></a>
             </p>
+            {{ with .Site.GetPage "/privacy" }}
             <p class = "font-16 pb-10">
-                <a class = "font-white" href = "{{ absLangURL "/privacy" }}"><strong>{{ i18n "privacy_policy" }}</strong></a>
+                <a class = "font-white" href = "{{ .Permalink }}"><strong>{{ .Title }}</strong></a>
                 </p>
             </div>
+            {{ end }}
         </div>
     </div>
 </div>
