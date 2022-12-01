@@ -1,9 +1,8 @@
 ---
 title: Cookies & Privacy
 heading: Privacy policy
-perex: <strong>TL;DR:</strong> This website uses only technical cookies which are necessary to ensure the elementary functions of the site, i.e. putting products into the cart, submitting contact forms or providing the purchasing process.
+perex: <strong>TL;DR:</strong> This website uses only technical cookies which are necessary to ensure the elementary functions of the site, i.e. putting products into the cart, submitting contact forms or providing the purchasing process. Your personal data are used only to provide the Service.
 ---
-
 
 Last updated: December 01, 2022
 
