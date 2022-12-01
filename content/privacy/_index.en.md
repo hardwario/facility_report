@@ -4,10 +4,10 @@ heading: Privacy policy
 perex: <strong>TL;DR:</strong> This website uses only technical cookies which are necessary to ensure the elementary functions of the site, i.e. putting products into the cart, submitting contact forms or providing the purchasing process. Your personal data are used only to provide the Service.
 ---
 
-Last updated: December 01, 2022
+**Last updated:** December 01, 2022
 
 This Privacy Policy describes Our policies and procedures on the collection, use and disclosure of Your information when You use the Service and tells You about Your privacy rights and how the law protects You.
-The webmaster of this web site is HARDWARIO a.s.. The company is registered in the Commercial Register, maintained by the Regional Court in Usti nad Labem, Section C, File 37399. Furthermore, the "operator" or "we" "administrator"
+The webmaster of this web site is HARDWARIO a.s.. The company is registered in the Commercial Register, maintained by the Regional Court in Usti nad Labem, Section C, File 37399. Furthermore, the "operator" or "we" "administrator".
 
 We use Your Personal data only to provide the Service. By using the Service, You agree to the collection and use of information in accordance with this Privacy Policy.
 
