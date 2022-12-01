@@ -77,7 +77,7 @@ other = "Temperature and humidity"
 other = "Air temperature and humidity monitoring, e.g. for audits, storage, heating."
 
 [price_1]
-other = "From 6 EUR / month"
+other = "From 6.80 EUR / month"
 
 [price_2_heading]
 other = "Temperature, humidity and illuminance"
@@ -86,7 +86,7 @@ other = "Temperature, humidity and illuminance"
 other = "Monitor temperature, humidity and light illuminance."
 
 [price_2]
-other = "From 7.5 EUR / month"
+other = "From 8.00 EUR / month"
 
 [price_3_heading]
 other = "Quality of indoor conditions"
@@ -95,7 +95,7 @@ other = "Quality of indoor conditions"
 other = "Monitoring of indoor environmental quality conditions, for example in offices."
 
 [price_3]
-other = "From 9 EUR / month"
+other = "From 9.60 EUR / month"
 
 [temperature]
 other = "Temperature"

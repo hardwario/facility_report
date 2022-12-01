@@ -77,7 +77,7 @@ other = "Teplota a vlhkost"
 other = "Sledování vzdušné teploty a vlhkosti, například pro audity, skladování, vytápění."
 
 [price_1]
-other = "Od 160 CZK / měsíc"
+other = "Od 170 CZK / měsíc"
 
 [price_2_heading]
 other = "Teplota, vlhkost a osvětlení"
@@ -95,7 +95,7 @@ other = "Kvalita vnitřních podmínek"
 other = "Sledování podmínek kvality vnitřního prostředí, například v kancelářích."
 
 [price_3]
-other = "Od 230 CZK / měsíc"
+other = "Od 240 CZK / měsíc"
 
 [temperature]
 other = "Teplota"
