@@ -71,22 +71,22 @@ other = "Cena"
 other = "Měsíční poplatek zahrnuje pronájem zařízení, speciální IoT konektivitu, cloud API a report v PowerBI. Cena se odvíjí podle typu a počtu sledovaných veličin a délky závazku."
 
 [price_1_heading]
-other = "Teplota"
-
-[price_1_desc]
-other = "Sledování teploty vzduchu, vody, potrubí, stěn, motorů a dalších objektů."
-
-[price_1]
-other = "Od 100 CZK / měsíc"
-
-[price_2_heading]
 other = "Teplota a vlhkost"
 
-[price_2_desc]
+[price_1_desc]
 other = "Sledování vzdušné teploty a vlhkosti, například pro audity, skladování, vytápění."
 
+[price_1]
+other = "Od 160 CZK / měsíc"
+
+[price_2_heading]
+other = "Teplota, vlhkost a osvětlení"
+
+[price_2_desc]
+other = "Sledování vzdušné teploty, vlhkosti a intenzity světla."
+
 [price_2]
-other = "Od 150 CZK / měsíc"
+other = "Od 190 CZK / měsíc"
 
 [price_3_heading]
 other = "Kvalita vnitřních podmínek"
@@ -95,7 +95,7 @@ other = "Kvalita vnitřních podmínek"
 other = "Sledování podmínek kvality vnitřního prostředí, například v kancelářích."
 
 [price_3]
-other = "Od 200 CZK / měsíc"
+other = "Od 230 CZK / měsíc"
 
 [temperature]
 other = "Teplota"
@@ -109,8 +109,8 @@ other = "Oxid uhličitý"
 [illuminance]
 other = "Intenzita osvětlení"
 
-[pressure]
-other = "Atmosférický tlak"
+[noise]
+other = "Úroveň hluku"
 
 [motion]
 other = "Detekce pohybu"

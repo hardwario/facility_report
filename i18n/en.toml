@@ -71,22 +71,22 @@ other = "Price"
 other = "Monthly fee includes facility rental, special IoT connectivity, cloud API and PowerBI report. Pricing is based on the type and number of variables monitored and the commitment length."
 
 [price_1_heading]
-other = "Temperature"
-
-[price_1_desc]
-other = "Monitor temperature of air, water, pipes, walls, motors and other objects."
-
-[price_1]
-other = "From 4 EUR / month"
-
-[price_2_heading]
 other = "Temperature and humidity"
 
-[price_2_desc]
+[price_1_desc]
 other = "Air temperature and humidity monitoring, e.g. for audits, storage, heating."
 
-[price_2]
+[price_1]
 other = "From 6 EUR / month"
+
+[price_2_heading]
+other = "Temperature, humidity and illuminance"
+
+[price_2_desc]
+other = "Monitor temperature, humidity and light illuminance."
+
+[price_2]
+other = "From 7.5 EUR / month"
 
 [price_3_heading]
 other = "Quality of indoor conditions"
@@ -95,7 +95,7 @@ other = "Quality of indoor conditions"
 other = "Monitoring of indoor environmental quality conditions, for example in offices."
 
 [price_3]
-other = "From 8 EUR / month"
+other = "From 9 EUR / month"
 
 [temperature]
 other = "Temperature"
@@ -109,8 +109,8 @@ other = "Carbon dioxide"
 [illuminance]
 other = "Illuminance"
 
-[pressure]
-other = "Atmospheric pressure"
+[noise]
+other = "Noise level"
 
 [motion]
 other = "Motion detection"
