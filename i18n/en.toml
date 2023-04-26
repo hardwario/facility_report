@@ -124,6 +124,9 @@ other = "Partner of the Facility Report"
 [ceo]
 other = "CMO and co-founder"
 
+[cso]
+other = "Chief Sales Officer"
+
 [let_contact]
 other = "Leave me a contact, I'll get back to you"
 
